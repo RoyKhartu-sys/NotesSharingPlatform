@@ -12,7 +12,11 @@ body{
 }
 header{
     background-color: rgba(92, 224, 176, 0.539);
-    padding: 30px 40px;
+    padding: 10px 10px;
+}
+.para{
+    font-size: 15px;
+    margin-top: 20px ;
 }
 nav{
     color: rgb(18, 17, 17);
@@ -50,14 +54,31 @@ section{
     color: rgb(59, 88, 13);
     font-size: large;
 }
-
+.inp{
+    margin-left: auto;
+}
+.notes-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    gap:50px;
+    padding:20px;
+}
+.note-card{
+    height: 100px;
+    width: 110px;
+    gap: 10px;
+    background: lightgoldenrodyellow;
+    border:yellowgreen;
+    border-radius: 10px;
+    text-align: center;
+}
 h1{
     color: rgb(1, 23, 26);
-    margin-bottom: 20px;
 }
 h2{
     color: #068a27;
-    margin-bottom: 20px;
+    margin-top: 40px;
     border-bottom: 20px;
     padding-bottom: 20px;
 }
@@ -73,10 +94,18 @@ button{
     background-color: rgb(175, 231, 156);
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    cursor: pointer;
+    margin-top: 20px;
 }
 section{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+footer{
+    font-size: 15px;
+}
+.hr{
+    background-color: black;
+    height: 3px;
+    border: none;
 }
