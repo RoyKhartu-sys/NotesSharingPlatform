@@ -15,8 +15,10 @@ header{
     padding: 10px 10px;
 }
 .para{
-    font-size: 15px;
+    color: rgb(22, 29, 31);
+    font-size: 18px;
     margin-top: 20px ;
+    margin-right: 20px;
 }
 nav{
     color: rgb(18, 17, 17);
