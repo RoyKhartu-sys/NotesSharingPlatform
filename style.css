@@ -22,7 +22,7 @@ nav{
 }
 nav h2{
     color: rgb(0, 0, 0);
-    font-size: medium;
+    font-size: 15px;
 }
 nav ul{
     display:flex;
@@ -42,17 +42,21 @@ main{
     padding: 30px 20px;
 }
 input{
+    background-color: rgb(111, 215, 119);
     border-radius: 10px;
 }
 section{
     margin-bottom: 40px;
+    color: rgb(59, 88, 13);
+    font-size: large;
 }
+
 h1{
     color: rgb(1, 23, 26);
     margin-bottom: 20px;
 }
 h2{
-    color: #9fcf23;
+    color: #068a27;
     margin-bottom: 20px;
     border-bottom: 20px;
     padding-bottom: 20px;
@@ -66,7 +70,7 @@ p{
     margin-bottom: 10px;
 }
 button{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(175, 231, 156);
     border-radius: 10px;
     color: rgb(0, 0, 0);
     cursor: pointer;
