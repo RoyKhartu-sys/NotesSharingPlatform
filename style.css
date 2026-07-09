@@ -63,14 +63,14 @@ section{
 .inp{
     margin-left: auto;
 }
-.notes-grid{
+.notesgrid{
     display: grid;
     grid-template-columns: repeat(4, 100px);
     justify-content: center;
     gap:50px;
     padding:20px;
 }
-.note-card{
+.notecard{
     height: 100px;
     width: 110px;
     gap: 10px;
@@ -84,13 +84,13 @@ h1{
     color: rgb(1, 23, 26);
 }
 h2{
-    color: #068a27;
+    color: #108b2f;
     margin-top: 40px;
     border-bottom: 20px;
     padding-bottom: 20px;
 }
 h3{
-    color: rgb(77, 127, 2);
+    color: rgb(90, 145, 7);
     margin-bottom: 10px;
 }
 p{
