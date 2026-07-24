@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+        <header>
         <nav>
            <h2>NotesSharing</h2>
            <ul>
@@ -22,13 +22,12 @@
         <section class="hero">
             <h1>NotesSharing</h1>
             <div class="para">
-                Share and access notes easily 
+                Share and access notes easily.
             </div>
             <div class="inp">
-            <input type="text" placeholder="Search Notes">
-            <button>Search</button>
+            <input type="text" id="searchInput" placeholder="Search Notes">
+            <button onclick="searchNotes()">Search</button>
             </div>
-
         </section>
         <section>
              <h2>Popular Notes</h2>
@@ -36,17 +35,17 @@
            <div class="notecard">
                 <h3>HTML</h3>
                 <p>6 notes available</p>
-                <button>View Notes</button>
+                <button onclick="window.location.href='html.html'">View Notes</button>
            </div>
            <div class="notecard">
             <h3>CSS</h3>
             <p>9 notes available</p>
-            <button>View Notes</button>
+            <button onclick="window.location.href='css.html'">View Notes</button>
         </div>
             <div class="notecard">
             <h3>JavaScript</h3>
             <p>10 notes available</p>
-            <button>View Notes</button>
+            <button onclick="window.location.href='javascript.html'">View Notes</button>
      </div>  
      </div>
         </section>
@@ -56,17 +55,17 @@
                 <div class="notecard">
                 <h3>CSS Basics</h3>
                 <p>Added by Roy</p>
-                <button>View Notes</button>
+                <button onclick="window.location.href='cssbasics.html'">View Notes</button>
             </div>
             <div class="notecard">
                 <h3>HTML Basics</h3>
                 <p>Added by Yve</p>
-                <button>View Notes</button>
+                <button onclick="window.location.href='htmlbasics.html'">View Notes</button>
             </div>
             <div class="notecard">
                 <h3>JavaScript Basics</h3>
                 <p>Added by Khartu</p>
-                <button>View Notes</button>
+                <button onclick="window.location.href='javascriptbasics.html'">View Notes</button>
             </div>
                 </div>
             </div>
@@ -75,5 +74,6 @@
     <footer>
         <p>&copy; 2026 NotesSharing | by Roy Khartu.</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
