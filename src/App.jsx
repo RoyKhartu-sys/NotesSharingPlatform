@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Upload from "./pages/upload";
 import Footer from "./components/footer";
 
